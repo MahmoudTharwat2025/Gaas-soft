@@ -1,0 +1,158 @@
+@media (max-width: 992px) {
+
+    /* nav */
+    .navbar-nav {
+        align-items: flex-start !important;
+
+    }
+
+    .navbar-light {
+        background-color: #000 !important;
+    }
+
+    .navbar-light .navbar-toggler i {
+        color: #FFF;
+        font-size: 25px;
+    }
+
+    .navbar-light .navbar-nav .nav-item {
+        width: 100%;
+        border-bottom: 1px solid #ccc3;
+    }
+
+    .navbar-light .navbar-nav .nav-item .nav-link {
+        color: #FFF;
+        line-height: 1.8;
+    }
+
+    .nav-but {
+        display: none;
+    }
+
+    /* But b contact_area */
+    .contact_area .contact__form .visited {
+        display: block;
+    }
+
+    .border-line,
+    .shape1,
+    .shape2,
+    .shape3 {
+        display: none;
+    }
+
+    .recent {
+        padding: 80px 0;
+        background-image: none;
+        background-color: #faf9ff;
+    }
+
+    .price {
+        padding: 80px 0;
+        background-image: none;
+        background-color: #faf9ff;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    /* main-title */
+    .features {
+        padding: 50px 0;
+    }
+
+    .landing__image {
+        display: none;
+    }
+
+    .media {
+        margin: 0
+    }
+
+    /* Amazing */
+    .amazing__image img {
+        margin: 50px 0;
+    }
+
+    .row_three {
+        margin-top: 60px;
+    }
+
+    .impress {
+        background-color: #a16af7;
+        background-image: none;
+        padding: 80px 0;
+    }
+
+    .impress .main-title {
+        margin: 0;
+    }
+
+    .impress .main-title .main-title-per {
+        padding: 0;
+    }
+
+    /* Categorie */
+    .categorie_info {
+        width: 50%;
+    }
+}
+
+@media (max-width:600px) {
+
+    /* main-title */
+    .main-title p {
+        padding: 0;
+    }
+
+    .main-title h2 {
+        margin: 13px 0 10px;
+        font-size: 23px;
+    }
+
+    /* landing */
+    .landing {
+        height: 90vh;
+    }
+
+    .landing .row .per {
+        margin-top: 120px;
+    }
+
+    .landing__title {
+        font-size: 28px;
+        padding: 0;
+    }
+
+    .landing__description {
+        font-size: 13px;
+        margin: 15px 0;
+    }
+
+    /* Features */
+    .features__image {
+        display: none;
+    }
+
+    /* recent */
+    .recent .nav .nav-item {
+        flex: 0 0 37%;
+        margin: 10px;
+    }
+
+    .prands .prands_cards .prands-card {
+        width: 120px;
+        margin-left: 20px;
+    }
+
+    /* impress */
+    .impress .main-title h2 {
+        font-size: 36px;
+    }
+
+    /* Categorie */
+    .categorie_info {
+        width: 90%;
+    }
+}
